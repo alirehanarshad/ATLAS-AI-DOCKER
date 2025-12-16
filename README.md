@@ -1,24 +1,46 @@
-# Day #78
+Atlas AI – Dockerized Chatbot Application
 
-### Google Gemini Clone
-Build your own Generative AI App using Google Gemini API with Vanilla JavaScript. Create AI App like Google Gemini or ChatGPT step by step tutorial.
+Atlas AI is a Generative AI chatbot application built with vanilla JavaScript and the Gemini API, deployed on Apache server using Docker on a Linux VM in Azure. This project demonstrates building a cloud-hosted AI chatbot from scratch.
 
-In this tutorial ([Open in Youtube](https://youtu.be/Klcpzw_nvLU)), you will learn to create your own Generative AI app like Google Gemini or ChatGPT using vanilla JavaScript. In this step-by-step tutorial, we will create a Gemini clone app using the Gemini API for absolutely free. You can build this Google Gemini app for your college project or personal portfolio.
+Features
 
-- Introduction to AI-Powered Chat Apps: Learn how to create a generative AI app similar to Google Gemini or ChatGPT using vanilla JavaScript. 🤖
-- Connecting with the Gemini API: Discover how to use the Gemini API to add AI capabilities to your app, allowing for natural language conversations and responses. 🌐
-- Step-by-Step JavaScript Implementation: Follow our detailed guide, from setting up your project to implementing AI-powered chat features using vanilla JavaScript. 💻
-- User-Friendly Interface: Design a sleek, responsive interface for an engaging chat experience, ensuring smooth interactions and real-time responses. 🌟
-- Optimizing Performance: Learn how to keep your AI chat app efficient, running smoothly across different devices and platforms. 📱
+🤖 AI-Powered Chatbot: Interact with the chatbot using natural language, powered by Gemini API
 
-## Warning
-You need to get your own **API Key** (in video we showed how!) and replace it in script.js file on line 12 :
+💻 Front-End: Built with HTML, CSS, and JavaScript for a responsive, user-friendly interface
 
-```javascript
+🐳 Containerized Deployment: Dockerized the app for consistent deployment across environments
+
+☁️ Cloud Deployment: Hosted on Azure VM with Linux OS for real-world cloud experience
+
+🚀 Version Control: Docker image pushed to Docker Hub for easy distribution and management
+
+Getting Started
+
+Clone this repository:
+
+git clone [your-repo-link]
+
+
+Obtain your Gemini API Key and replace it in script.js:
+
 const GOOGLE_API_KEY = "YOUR_API_KEY";
-```
 
-# Screenshot
-Here we have project screenshot :
 
-![screenshot](screenshot.png)
+Build and run the Docker container:
+
+docker build -t atlas-ai .  
+docker run -p 80:80 atlas-ai
+
+Screenshots
+
+Technologies Used
+
+Docker & Apache Server
+
+Linux (Ubuntu)
+
+Azure VM
+
+HTML, CSS, JavaScript
+
+Gemini API
