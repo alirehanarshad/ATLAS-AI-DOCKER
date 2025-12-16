@@ -1,4 +1,4 @@
-###Atlas AI – Dockerized Chatbot Application
+Atlas AI – Dockerized Chatbot Application
 
 Atlas AI is a Generative AI chatbot application built with vanilla JavaScript and the Gemini API, deployed on Apache server using Docker on a Linux VM in Azure. This project demonstrates building a cloud-hosted AI chatbot from scratch.
 
